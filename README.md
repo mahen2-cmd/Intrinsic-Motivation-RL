@@ -12,3 +12,12 @@ The notebook (`intrinsic_rl.ipynb`) keeps my working notes between cells: design
 Related: [Intrinsically-Motivated-Agents](https://github.com/mahen2-cmd/Intrinsically-Motivated-Agents), a two-agent version with no task reward at all.
 
 Stack: Python, PyTorch, NumPy, pandas.
+
+## How to run
+
+```bash
+pip install torch numpy pandas tqdm jupyter
+jupyter notebook intrinsic_rl.ipynb
+```
+
+Run the cells top to bottom. The saved `.pth` weights let you skip training and inspect the models directly.
